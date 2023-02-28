@@ -1,0 +1,14 @@
+title: abstract
+author: Peter Van Dyken
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  formats:
+    pdf:
+      include-in-header: header.tex
+      fontsize: 11pt
+      template-partials:
+        - partials/title.tex
+      geometry:
+        - "margin=1in"
+        - noheadfoot
